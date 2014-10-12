@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="helloworld" location="50,50" size="171,283">
+    <action name="actionllll" location="2,33" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="success.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="bookdetail" location="6,111" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="bookdetail.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="deletebook" location="6,206" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="helloworld.jsp" path="/helloworld.jsp" location="253,32" size="150,55" />
+  <webResource name="success.jsp" path="/success.jsp" location="448,32" size="150,55" />
+  <webResource name="error.jsp" path="/error.jsp" location="528,165" size="150,55" />
+  <webResource name="bookdetail.jsp" path="/bookdetail.jsp" location="234,427" size="150,55" />
+  <webResource name="index.jsp" path="index.jsp" location="408,367" size="150,55" />
+</Struts2Diagram>
+
